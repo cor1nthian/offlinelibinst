@@ -27,4 +27,4 @@ Script return codes:
 | 6 | Incorrect max lib quantity set
 | 7 | Max lib quantity not set
 | 8 | Could not find any lib
-| 9 | Nax lib quamtity exceeded
+| 9 | Max lib quamtity exceeded
