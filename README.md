@@ -25,5 +25,6 @@ Script return codes:
 | 4 | Path to target folder not set
 | 5 | Install report generation flag not set
 | 6 | Incorrect max lib quantity set
-| 7 | Could not find any lib
-| 8 | Lib quamtity exceeded
+| 7 | Max lib quantity not set
+| 8 | Could not find any lib
+| 9 | Nax lib quamtity exceeded
