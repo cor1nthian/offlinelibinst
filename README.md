@@ -1,5 +1,5 @@
 # Python Offline Library Installer
-Scripy yo insyall Python (,whl libraries) offline. Usage:
+Script to install Python (.whl libraries) offline. Usage:
 
 `libinst.py <path to pip> <path to library folder>`
 
