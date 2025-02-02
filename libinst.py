@@ -191,7 +191,7 @@ if __name__ == "__main__":
             if os.path.exists(sys.argv[2]):
                 targetFolder = sys.argv[2]
             else:
-                colorprint.out('PATH TO TARGET FOLDER DOES BOT EXIST')
+                colorprint.out('PATH TO TARGET FOLDER DOES NOT EXIST')
                 systemExitCode = 3
                 sys.exit(systemExitCode)
         else:
@@ -231,11 +231,11 @@ if __name__ == "__main__":
     libs = listFilesInFolderByExt(targetFolder)
     if libs is None or len(libs) == 0:
         colorprint.out('COULD NOT FIND ANY LIB')
-        systemExitCode = 8
+        systemExitCode = 7
         sys.exit(systemExitCode)
     if len(libs) > maxLibs:
         colorprint.out('LIB QUANTITY EXCEEDED')
-        systemExitCode = 9
+        systemExitCode = 8
         sys.exit(systemExitCode)
     li = 1
     installResult = installSuccess
