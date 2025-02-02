@@ -231,11 +231,11 @@ if __name__ == "__main__":
     libs = listFilesInFolderByExt(targetFolder)
     if libs is None or len(libs) == 0:
         colorprint.out('COULD NOT FIND ANY LIB')
-        systemExitCode = 7
+        systemExitCode = 8
         sys.exit(systemExitCode)
     if len(libs) > maxLibs:
-        colorprint.out('LIB QUANTITY EXCEEDED')
-        systemExitCode = 8
+        colorprint.out('MAX LIB QUANTITY EXCEEDED')
+        systemExitCode = 9
         sys.exit(systemExitCode)
     li = 1
     installResult = installSuccess
