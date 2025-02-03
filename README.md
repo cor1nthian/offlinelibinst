@@ -11,7 +11,7 @@ Can be called with arguments:
 | 1 | String | Path to pip tool
 | 2 | String | Path to the folder comtaining .whl libraries
 | 3 | Boolean | If true, script creates library install report. True by default.
-| 4 | Int | Maximum libraries to install. 256 by default.
+| 4 | Integer | Maximum libraries to install. 256 by default.
 
 :exclamation: Variables set in the script have priority over script arguments
 
