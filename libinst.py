@@ -7,7 +7,7 @@ import subprocess, os, sys
 # 2. Specify path to this folder either in script (targetFolder) or
 #   pass this path as a second parameter
 # 3. Install downloaded libs with this script
-#   pip install --no-index <libpath.whl>
+#   pip install --no-deps [--no-index] <libpath.whl>
 
 provideInstallReport = True
 installSuccess = 0
