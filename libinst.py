@@ -2,9 +2,9 @@ import subprocess, os, sys
 
 # How to use:
 # 1. Download required libs to a folder
-#   pip download -d <lib folder path> <lib name>
+#     pip download -d <lib folder path> <lib name>
 #   If folder pah contains spaces, it must be quoted
-# 2. Specify path to this folder either in script (targetFolder) or
+# 2. Specify path to lib folder either in script (targetFolder variable) or
 #   pass this path as a second parameter
 # 3. Install downloaded libs with this script
 #   (script example)
