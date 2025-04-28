@@ -7,8 +7,11 @@ import subprocess, os, sys
 # 2. Specify path to this folder either in script (targetFolder) or
 #   pass this path as a second parameter
 # 3. Install downloaded libs with this script
-#   (script example) libinst.py "C:\Users\admin\PycharmProjects\PythonProjects\videoprep\.venv\Scripts\pip.exe" C:\piplib
-#   (cmd) pip install --no-deps [--no-index] <libpath.whl>
+#   (script example)
+#      libinst.py "C:\Users\admin\PycharmProjects\PythonProjects\videoprep\.venv\Scripts\pip.exe" C:\piplib
+#   (cmd)
+#      pip install --no-deps [--no-index] <libpath.whl>
+
 
 provideInstallReport = True
 installSuccess = 0
